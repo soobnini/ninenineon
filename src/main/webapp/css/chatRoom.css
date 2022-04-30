@@ -1,0 +1,111 @@
+#peopleListTable {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 30px 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#peopleImage {
+  width: 60px;
+  height: 60px;
+  border-radius: 70%;
+}
+
+#rightDiv {
+  width: 100%;
+  background-color: #70D047;
+}
+
+#totalDiv {
+  height: 600px;
+}
+
+#chatTable {
+  width: 100%;
+}
+
+.rightBubble
+{
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 68%;
+  width: 215px;
+  height: 45px;
+  padding: 0px;
+  background: #FFFFFF;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.rightBubble:after
+{
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 8px 0 8px 25px;
+  border-color: transparent #FFFFFF;
+  display: block;
+  width: 0;
+  z-index: 1;
+  right: -25px;
+  top: 14px;
+}
+
+.leftTime {
+  vertical-align: bottom;
+}
+
+.leftBubble
+{
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  width: 215px;
+  height: 45px;
+  padding: 0px;
+  background: #FFFFFF;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.leftBubble:after
+{
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 8px 25px 8px 0;
+  border-color: transparent #FFFFFF;
+  display: block;
+  width: 0;
+  z-index: 1;
+  left: -25px;
+  top: 14px;
+}
+
+#rentTable {
+  margin-left:auto; 
+  margin-right:auto;
+  border-collapse: separate;
+  border-spacing: 10px 10px;
+}
+
+#sentTable {
+  margin-left:auto; 
+  margin-right:auto;
+  width: 100%;
+  border-collapse: separate;
+	border-spacing: 20px 20px;
+}
+
+#sentMessage {
+  width: 100%;
+}
+
+#messageContent {
+  width: 100%;
+}
